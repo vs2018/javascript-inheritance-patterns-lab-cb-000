@@ -15,8 +15,10 @@ function Side (length) {
 
 function Shape () {
 
+  this.position
+
 
   Shape.prototype.addToPlane = function (x, y) {
-    
+
   }
 }
