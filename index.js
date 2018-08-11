@@ -101,7 +101,7 @@ Square.prototype.constructor = Square;
 
 Square.prototype.listProperties = function () {
   for (var prop in self) {
-  if(rect.hasOwnProperty(prop)) {
+  if(self.hasOwnProperty(prop)) {
     console.log("rect." + prop + " = " + rect[prop]);
   }
 }
