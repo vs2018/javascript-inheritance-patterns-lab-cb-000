@@ -68,8 +68,8 @@ function Quadrilateral (s1, s2, s3, s4) {
 Quadrilateral.prototype = Object.create(Polygon.prototype);
 Quadrilateral.prototype.constructor = Quadrilateral;
 
-function Quadrilateral (s1, s2, s3, s4) {
-  Polygon.call(this, [s1, s2, s3, s4]);
+function Triangle (s1, s2, s3) {
+  Polygon.call(this, [s1, s2, s3]);
 
 }
 
