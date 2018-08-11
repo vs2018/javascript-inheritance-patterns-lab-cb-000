@@ -48,7 +48,7 @@ Polygon.prototype.constructor = Polygon;
 Polygon.prototype.perimeter = function () {
   var total = 0
   for (var side in this.sides) {
-    total += parseInt(side.length)
+    total += side.length
   }
   return total
 }
