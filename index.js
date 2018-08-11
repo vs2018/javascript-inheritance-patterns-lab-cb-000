@@ -8,3 +8,7 @@ function Point (x, y) {
 
   }
 }
+
+function Side (length) {
+  
+}
