@@ -12,3 +12,7 @@ function Point (x, y) {
 function Side (length) {
   this.length = length
 }
+
+function Shape () {
+  
+}
