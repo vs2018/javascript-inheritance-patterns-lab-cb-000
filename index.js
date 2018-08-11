@@ -19,11 +19,11 @@ function Shape () {
 
 
   Shape.prototype.addToPlane = function (x, y) {
-    this.position = Point(x,y)
+    this.position = new Point(x,y)
   }
 
   Shape.prototype.move = function (x,y) {
-    this.position = Point(x,y)
+    this.position = new Point(x,y)
 
   }
 }
