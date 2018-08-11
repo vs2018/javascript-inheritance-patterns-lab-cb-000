@@ -23,6 +23,7 @@ function Shape () {
   }
 
   Shape.prototype.move = function (x,y) {
-    
+    this.position = Point(x,y)
+
   }
 }
