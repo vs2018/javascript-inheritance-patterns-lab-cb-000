@@ -39,7 +39,7 @@ Circle.prototype.circumference = function() {
 function Polygon (array) {
   Shape.call(this);
   this.sides = array
-  
+
 
 }
 
