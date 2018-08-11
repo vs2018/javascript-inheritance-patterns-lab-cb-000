@@ -36,4 +36,3 @@ function Circle(radius) {
     return(2 * Math.PI * this.radius);
   }
 }
-
