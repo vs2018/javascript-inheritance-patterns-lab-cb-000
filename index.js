@@ -37,9 +37,9 @@ function Circle (n) {
   }
 
   Circle.prototype.circumference = function () {
-    return Math.PI * this.radius ** 2
+    return 2 * Math.PI * c.radius
   }
 
-  
+
 
 }
