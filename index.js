@@ -86,4 +86,3 @@ Rectangle.prototype.constructor = Rectangle;
 
 
 
-Define a Rectangle object that inherits from Quadrilateral and is constructed with two integer arguments that set width and height properties. Implement an area() function to calculate the area.
