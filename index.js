@@ -90,5 +90,5 @@ Rectangle.prototype.area = function () {
 }
 
 function Square (length) {
-  
+  Rectangle.call(this, )
 }
