@@ -36,4 +36,10 @@ function Circle (n) {
     return Math.PI * this.radius ** 2
   }
 
+  Circle.prototype.circumference = function () {
+    return Math.PI * this.radius ** 2
+  }
+
+  
+
 }
