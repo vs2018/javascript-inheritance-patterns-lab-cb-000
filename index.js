@@ -32,4 +32,8 @@ function Circle (n) {
     this.diameter = this.radius * 2
   }
 
+  Circle.prototype.area = function () {
+    
+  }
+
 }
