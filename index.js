@@ -64,3 +64,6 @@ function Quadrilateral () {
   Polygon.call(this);
 
 }
+
+Quadrilateral.prototype = Object.create(Polygon.prototype);
+Quadrilateral.prototype.constructor = Quadrilateral;
