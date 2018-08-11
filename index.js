@@ -97,4 +97,4 @@ function Square (length) {
 }
 
 Square.prototype = Object.create(Rectangle.prototype);
-Square.prototype.constructor = Rectangle;
+Square.prototype.constructor = Square;
