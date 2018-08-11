@@ -81,8 +81,8 @@ function Rectangle (width, height) {
 
 }
 
-Triangle.prototype = Object.create(Polygon.prototype);
-Triangle.prototype.constructor = Triangle;
+Rectangle.prototype = Object.create(Quadrilateral.prototype);
+Rectangle.prototype.constructor = Rectangle;
 
 
 
