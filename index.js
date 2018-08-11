@@ -29,7 +29,7 @@ function Circle (n) {
   Circle.prototype.constructor = Circle
 
   Circle.prototype.diameter = function () {
-    return this.radius * 2
+    this.diameter = this.radius * 2
   }
 
 }
