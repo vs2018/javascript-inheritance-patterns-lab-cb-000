@@ -100,5 +100,9 @@ Square.prototype = Object.create(Rectangle.prototype);
 Square.prototype.constructor = Square;
 
 Square.prototype.listProperties = function () {
-  
+  for (var prop in rect) {
+  if(rect.hasOwnProperty(prop)) {
+    console.log("rect." + prop + " = " + rect[prop]);
+  }
+}
 }
