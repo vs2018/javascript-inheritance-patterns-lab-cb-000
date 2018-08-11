@@ -15,7 +15,6 @@ function Side (length) {
 
 function Shape () {
 
-  this.position = {}
 
 
 
