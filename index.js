@@ -21,5 +21,6 @@ Shape.prototype.move = function(x,y) {
 }
 
 function Circle () {
-  
+
+  Shape.call(this)
 }
