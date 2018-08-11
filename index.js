@@ -61,5 +61,6 @@ Polygon.prototype.numberOfSides = function () {
 }
 
 function Quadrilateral () {
-  
+  Shape.call(this);
+
 }
