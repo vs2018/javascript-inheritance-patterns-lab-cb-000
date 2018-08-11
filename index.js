@@ -24,6 +24,6 @@ function Circle () {
 
   Shape.call(this)
 
-  Circle.prototype = Object.create(Rectangle.prototype);
+  Circle.prototype = Object.create(Shape.prototype);
   Circle.prototype.constructor = Circle
 }
