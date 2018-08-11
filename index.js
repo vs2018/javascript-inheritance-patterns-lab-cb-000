@@ -76,3 +76,14 @@ function Triangle (s1, s2, s3) {
 Triangle.prototype = Object.create(Polygon.prototype);
 Triangle.prototype.constructor = Triangle;
 
+function Rectangle (s1, s2, s3) {
+  Polygon.call(this, [new Side(s1), new Side(s2), new Side(s3)]);
+
+}
+
+Triangle.prototype = Object.create(Polygon.prototype);
+Triangle.prototype.constructor = Triangle;
+
+
+
+Define a Rectangle object that inherits from Quadrilateral and is constructed with two integer arguments that set width and height properties. Implement an area() function to calculate the area.
