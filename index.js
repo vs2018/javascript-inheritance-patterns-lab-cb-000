@@ -52,3 +52,11 @@ Polygon.prototype.perimeter = function () {
   }
   return total
 }
+Polygon.prototype.perimeter = function () {
+  var total = 0
+  for (var side in this.sides) {
+    total += side.length
+  }
+  return total
+}
+
