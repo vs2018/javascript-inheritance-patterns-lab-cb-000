@@ -41,4 +41,6 @@ function Polygon () {
 
 }
 
-Polygon.prototype.perimeter
+Polygon.prototype.perimeter = function () {
+  
+}
