@@ -46,6 +46,6 @@ function Polygon (array) {
 Polygon.prototype.perimeter = function () {
   var total = 0
   for (var side in this.sides) {
-    
+    total += side.length
   }
 }
