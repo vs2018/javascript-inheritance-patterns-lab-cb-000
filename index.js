@@ -89,6 +89,6 @@ Rectangle.prototype.area = function () {
   return this.width * this.height
 }
 
-function Square () {
+function Square (length) {
   
 }
