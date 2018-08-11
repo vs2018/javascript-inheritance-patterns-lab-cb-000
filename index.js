@@ -43,6 +43,8 @@ function Polygon (array) {
 
 }
 
+Circle.prototype = Object.create(Shape.prototype);
+Circle.prototype.constructor = Circle;
 Polygon.prototype.perimeter = function () {
   var total = 0
   for (var side in this.sides) {
