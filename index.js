@@ -17,11 +17,10 @@ function Shape () {
 
   this.position = {}
 
-  Point.call(this, )
+
 
 
   Shape.prototype.addToPlane = function (x, y) {
-    Point.call(this, x, y)
     this.position = new Point(x,y)
   }
 
