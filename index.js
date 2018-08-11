@@ -40,3 +40,5 @@ function Polygon () {
   Shape.call(this);
 
 }
+
+Polygon.prototype.perimeter
