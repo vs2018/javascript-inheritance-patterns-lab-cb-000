@@ -73,5 +73,5 @@ function Triangle (s1, s2, s3) {
 
 }
 
-Quadrilateral.prototype = Object.create(Polygon.prototype);
-Quadrilateral.prototype.constructor = Quadrilateral;
+Triangle.prototype = Object.create(Polygon.prototype);
+Triangle.prototype.constructor = Triangle;
