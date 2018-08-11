@@ -57,5 +57,5 @@ Polygon.prototype.numberOfSides = function () {
   for (var side in this.sides) {
     count++
   }
-  return total
+  return count
 }
