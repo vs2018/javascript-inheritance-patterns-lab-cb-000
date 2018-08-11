@@ -93,8 +93,8 @@ function Square (length) {
   Rectangle.call(this, length, length)
   this.length = length
 
-  
+
 }
 
-Rectangle.prototype = Object.create(Quadrilateral.prototype);
-Rectangle.prototype.constructor = Rectangle;
+Square.prototype = Object.create(Rectangle.prototype);
+Square.prototype.constructor = Rectangle;
