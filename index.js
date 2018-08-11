@@ -60,7 +60,7 @@ Polygon.prototype.numberOfSides = function () {
   return count
 }
 
-function Quadrilateral () {
+function Quadrilateral (s1, s2, s3, s4) {
   Polygon.call(this);
 
 }
