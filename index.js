@@ -23,16 +23,15 @@ Shape.prototype.move = function(x,y) {
 function Circle(radius) {
   Shape.call(this);
   this.radius = radius;
-
-  Circle.prototype = Object.create(Shape.prototype);
-  Circle.prototype.constructor = Circle;
-  Circle.prototype.diameter = function() {
-    return(this.radius*2);
-  }
-  Circle.prototype.area = function() {
-    return(Math.PI * this.radius^2);
-  }
-  Circle.prototype.circumference = function() {
-    return(2 * Math.PI * this.radius);
-  }
+}
+Circle.prototype = Object.create(Shape.prototype);
+Circle.prototype.constructor = Circle;
+Circle.prototype.diameter = function() {
+  return(this.radius*2);
+}
+Circle.prototype.area = function() {
+  return(Math.PI * this.radius^2);
+}
+Circle.prototype.circumference = function() {
+  return(2 * Math.PI * this.radius);
 }
