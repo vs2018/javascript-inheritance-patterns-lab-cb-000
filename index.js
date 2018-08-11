@@ -88,3 +88,7 @@ Rectangle.prototype.constructor = Rectangle;
 Rectangle.prototype.area = function () {
   return this.width * this.height
 }
+
+function Square () {
+  
+}
