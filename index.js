@@ -3,7 +3,7 @@ function Point (x, y) {
   this.y = y
 
   Point.prototype.toString = function () {
-    return "(" + x + ", " + y + ")"
+    return "(" + this.x + ", " + this.y + ")"
 
 
   }
