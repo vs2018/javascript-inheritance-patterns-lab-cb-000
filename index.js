@@ -33,7 +33,7 @@ function Circle (n) {
   }
 
   Circle.prototype.area = function () {
-    
+    return Math.PI * this.radius ** 2
   }
 
 }
